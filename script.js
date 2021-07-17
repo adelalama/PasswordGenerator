@@ -211,14 +211,12 @@ var special = [
       result.push(possibleCharacter);
     }
   
-    
     return result.join('');
   }
   
-  
   var generateBtn = document.querySelector('#generate');
   
-
+//function to call generate password and assign that password to id password in html
   function writePassword() {
     var password = generatePassword();
     var passwordText = document.querySelector('#password');
@@ -226,6 +224,6 @@ var special = [
     passwordText.value = password;
   }
   
-  
+  //we add the  event listener to html button
   generateBtn.addEventListener('click', writePassword);
   

@@ -71,9 +71,9 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: blue;
   border-radius: 25px;
-  color: hsl(0, 0%, 100%);
+  color: lightgrey;
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
